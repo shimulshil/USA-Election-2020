@@ -1,0 +1,1 @@
+<div class='row'><div class='col-50 container-result'><div class='col-result col-red' style='height: 20%'></div><h4 class='text-color'>20%</h4></div><div class='col-50 container-result'><div class='col-result col-blue' style='height: 40%'></div><h4 class='text-color'>40%</h4></div></div><h3 class='text-shadow'>Dato: 17/10-2020 State: New Jersey </h3>

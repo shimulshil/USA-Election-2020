@@ -1,0 +1,154 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Eagle Lake', cursive;
+}
+/* *{
+    box-sizing: border-box;
+} */
+img{
+    max-width: 100%;
+}
+
+main, h1{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+.heading{
+    font-size: xxx-large;
+    font-style: italic;
+    color: blue;
+    text-shadow: 2px 2px #ff0000;
+}
+.link{
+    font-weight: bolder;
+    font-size: larger;
+    color: red;
+    text-decoration: none;
+}
+.candidate{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Italianno', cursive;
+}
+.wrapper{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-image:url(1.jpg);
+    background-size: 100% 100%;
+    min-height:100vh;
+}
+
+.row{
+    display: flex;
+    margin-top: -56px;
+}
+
+.col-50{
+    width: 50%;
+    padding: 10px;
+
+}
+
+.container-result{
+    height: 20vh;
+    position: relative;
+}
+.col-result{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.col-red{
+    background: red;
+}
+.col-blue{
+    background: blue;
+}
+
+h4{
+    position: absolute;
+    margin-top: 43px;
+}
+
+/* Backend */
+
+.background{
+    background-color: lightskyblue;
+}
+
+.preview{
+    width: 600px;
+    height: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    margin: auto;
+}
+.form{
+    /* margin-left: 50px; */
+    margin-top: 77px;
+    width: 515px;
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+}
+.form-width{
+    width: 175px;
+    height: 30px;
+    text-align: center;
+}
+.container{
+    background: url(flag.png);
+    width: 40vw;
+    min-height: 50vh;  
+    margin: auto;
+    margin-top: -87px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 275px;
+}
+/* Submit  */
+
+.text-shadow{
+    color: blue;
+    text-shadow: 1px 1px #ff0000;
+}
+.text-color{
+    color:white;
+    padding-top: 82px;
+    font-family: sans-serif;
+}
+
+@media screen and (min-width : 720px){
+    .row11{
+        display: flex;
+    }
+    .col2>*{
+        width: 50%;
+    }
+    .col3>*{
+        width: 33.33%;
+    }
+    .padding-l{
+        padding-left: 1rem;
+    }
+    .padding-r{
+        padding-right: 1rem;
+    }
+    .padding-l-r{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    
+}
